@@ -1,6 +1,8 @@
 'use strict' 
+// Use strict this will be undefined
 
-function printThis(){
+// arrow function: this will be whatever it is in surrounding scope
+const printThis = () => {
   console.log(this)
 }
 
